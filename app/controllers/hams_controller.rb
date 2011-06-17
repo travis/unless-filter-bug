@@ -10,7 +10,7 @@ class HamsController < ApplicationController
     render inline: "eggs"
   end
 
-
+  protected
 
   def first
     session[:second] = nil
