@@ -1,0 +1,2 @@
+class HamsController < ApplicationController
+end
