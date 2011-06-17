@@ -1,5 +1,9 @@
 UnlessFilterBug::Application.routes.draw do
-  resources :hams
+  resources :hams do
+    member do
+      get 'eggs'
+    end
+  end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
